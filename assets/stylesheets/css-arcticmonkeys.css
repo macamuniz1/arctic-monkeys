@@ -73,7 +73,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  background-image: url("../assets/images/member3.jpg");
+  background-image: url("../images/member3.jpg");
 }
 #photo4{
   width: 100%;
@@ -82,7 +82,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  background-image: url("../assets/images/member4.jpg");
+  background-image: url("../images/member4.jpg");
 }
 
 
