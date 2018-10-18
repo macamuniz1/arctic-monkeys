@@ -2,7 +2,9 @@
 body{
   text-align: center;
 }
-
+.memberinfo{
+  vertical-align: text-top;
+}
 .main_container{
   margin-top: 50px;
   width: 100%;
@@ -89,13 +91,14 @@ body{
 .main{
   width: 100%;
   text-align: center;
+  padding-top: 50px;
 
 }
 
 .member{
   height: 300px;
   width: 100%;
-  padding: 20px
+  padding: 30px
 }
 
 .membersdisplay{
@@ -108,12 +111,13 @@ div{
   display: inline-block;
 }
 
-.left, .right{
+.leftcolumn, .rightcolumn{
   width: 49%;
   height: 100%;
   text-align: left;
   padding-left: 20px;
   padding-right: 20px;
+  vertical-align: text-top;
 }
 
 .member_photo{
