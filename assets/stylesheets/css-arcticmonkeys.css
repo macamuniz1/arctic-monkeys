@@ -1,40 +1,3 @@
-/* body, html {
-    height: 100%;
-}
-
-h1 {color: #ffffff;
-font-family: Roboto+Condensed;
-font-size: 30px;
-font-style: normal;
-font-weight: 900;
-text-align: center;
-}
-.bodytext {
-  font-family: roboto+Condensed;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  text-align: left;
-  line-height: 150%;
-  margin-left: 40px;
-  margin-right: 40px;
-  }
-
-}
-.hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/images/banner-about.jpg");
-    height: 50px;
-    background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   position: relative;
-  }
-
-.videofullscreen {
-width: 900px;
-height: 500px;
-position: position;
-} */
 
 body{
   text-align: center;
@@ -59,14 +22,6 @@ body{
   justify-content: center;
 }
 
-.tours_table{
-  width: 100%;
-  margin: 10px;
-}
-
-th{
-  text-align: center;
-}
 
 .video{
   height: 500px;
@@ -143,7 +98,7 @@ th{
   padding: 20px
 }
 
-.center{
+.membersdisplay{
   width: 100%;
   padding-left: 10%;
   padding-right: 10%;
