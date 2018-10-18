@@ -1,0 +1,171 @@
+/* body, html {
+    height: 100%;
+}
+
+h1 {color: #ffffff;
+font-family: Roboto+Condensed;
+font-size: 30px;
+font-style: normal;
+font-weight: 900;
+text-align: center;
+}
+.bodytext {
+  font-family: roboto+Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+  line-height: 150%;
+  margin-left: 40px;
+  margin-right: 40px;
+  }
+
+}
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/images/banner-about.jpg");
+    height: 50px;
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+  }
+
+.videofullscreen {
+width: 900px;
+height: 500px;
+position: position;
+} */
+
+body{
+  text-align: center;
+}
+
+.main_container{
+  margin-top: 50px;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.banner_container{
+  width: 100%;
+  height: 200px;
+  text-align: center;
+}
+
+.main_title{
+  height: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tours_table{
+  width: 100%;
+  margin: 10px;
+}
+
+th{
+  text-align: center;
+}
+
+.video{
+  height: 500px;
+  width: 100%;
+  background-color: black;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.videofullscreen{
+  width: 100%;
+  height: 100%;
+}
+
+#banner{
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/banner-about.jpg");
+  color: white;
+}
+
+#photo1{
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: url("/assets/images/member1.png");
+}
+
+#photo2{
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: url("/assets/images/member2.jpg");
+}
+#photo3{
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: url("/assets/images/member3.jpg");
+}
+#photo4{
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: url("/assets/images/member4.jpg");
+}
+
+
+.main{
+  width: 100%;
+  text-align: center;
+
+}
+
+.member{
+  height: 300px;
+  width: 100%;
+  padding: 20px
+}
+
+.center{
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+div{
+  display: inline-block;
+}
+
+.left, .right{
+  width: 49%;
+  height: 100%;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.member_photo{
+  height: 100%;
+  width: 100%;
+}
+
+.member_photo img{
+  width: 200px;
+}
