@@ -1,6 +1,7 @@
 
 body{
   text-align: center;
+
 }
 header{
   background-color: black;
@@ -28,7 +29,11 @@ header{
     }
   }
 }
-
+.bodytext{
+  text-align: left;
+  font-size: 16px;
+  padding: 30px;
+}
 .memberinfo{
   vertical-align: text-top;
 }
@@ -54,9 +59,10 @@ header{
 .video{
   height: 500px;
   width: 100%;
-  background-color: black;
+  background-color: white;
   padding-left: 5%;
   padding-right: 5%;
+  padding-top: 30px;
 }
 
 .videofullscreen{
